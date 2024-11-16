@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow only your frontend's origin
+  origin: 'https://customer-relationship-manager-frontend-t1aa.vercel.app/', // Allow only your frontend's origin
   credentials: true, // Enable credentials for session management
 }));
 app.use(express.json());
